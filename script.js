@@ -32,7 +32,7 @@ hidebtn.addEventListener("click", async () => {
         <div class="row2data">Hostname:     ${ipData.ip}</div>
       </div>
       <div class="map">
-        <iframe src="https://maps.google.com/maps?q=${ipData.latitude},${ipData.longitude}&z=15&output=embed" width="100%" height="800" frameborder="0" style="border:0"></iframe>
+        <iframe src="https://maps.google.com/maps?q=${ipData.latitude},${ipData.longitude}&z=15&output=embed" width="100%" height="550" frameborder="0" style="border:0"></iframe>
       </div>
       <div class="middle1 nana"><b>Time Zone:    ${ipData.timezone}</b></div>
       <div class="middle2 nana"><b>Date and Time:    ${datetime_str}</b></div>
